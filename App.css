@@ -1,0 +1,28 @@
+.createCard{ 
+  margin: 50px 0px 0px 100px;
+  border: 1px solid #a5a4a4;
+  padding: 20px;
+  width: 500px;
+  height: 300px;
+}
+.inputDiv{margin: 20px 0px 0px 10px}
+.inputTag{width: 90%;padding: 10px; font-size: 16px;margin-top: 10px;}
+.label{  font-size: 16px;font-weight: bold;}
+.submitButton{
+  margin: 20px 0px 0px 10px;padding: 10px 20px 10px 20px;cursor: pointer;color: #fff;background-color: rgb(69, 152, 200);border: none;font-size: 16px;font-weight: bold;
+}
+.table{margin: 50px 0px 0px 100px;width: 50%;}
+.table th{background-color: #b2b5b2; }
+.table th,.table td{
+  padding: 12px;text-align: left;border-bottom: 1px solid #b1aeae; font-size: 18px;
+}
+.table button{
+  padding: 10px 20px 10px 20px;border: none;font-size: 16px;cursor: pointer;
+}
+.table tr:nth-child(even) {
+  background-color: #f2f2f2; /* Alternating row colors for better readability */
+}
+.table .update{color: #fff;background-color: rgb(73, 211, 75);font-weight: bold;}
+.table .delete{color: #fff;background-color: rgb(211, 73, 73);font-weight: bold;}
+.tablecreate{margin-left: 50%;cursor: pointer;}
+
